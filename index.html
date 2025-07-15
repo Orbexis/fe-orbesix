@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contentify - Đăng nhập & Đăng ký</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="main-container">
+
+        <div class="card-container login-container">
+            <div class="branding-panel">
+                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI0IDRDMTIuOTYgNCA0IDEyLjk2IDQgMjRDNCAzNS4wNCAxMi45NiA0NCAyNCA0NEMzNS4wNCA0NCA0NCAzNS4wNCA0NCAyNEM0NCAxMi45NiAzNS4wNCA0IDI0IDRaTTMyLjggMjQuOEwyNCAzMi44TDE1LjIgMjQuOEwxNi45NiAyMy4wNEwyMyA0MS4xNFY2Ljg2TDE2Ljk2IDIwLjk2TDE1LjIgMTkuMkwyNCAxMS4yTDMyLjggMTkuMkwzMS4wNCAyMC45NkwyNSA2Ljg2VjQxLjE0TDMxLjA0IDIzLjA0TDMyLjggMjQuOFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" alt="logo" class="logo">
+                <h1>CONTENTIFY</h1>
+                <h2>Plan smart<br>Write faster<br>Grow bigger</h2>
+                <p>Với Contentify, sáng tạo chưa bao giờ dễ đến thế.</p>
+                <p class="new-user-prompt">Bạn mới đến với Contentify? <a href="#">Đăng ký ngay</a> để bắt đầu sáng tạo.</p>
+            </div>
+
+            <div class="form-panel">
+                <form action="#">
+                    <h3>Đăng nhập vào Contentify</h3>
+                    <p>Tiếp tục hành trình sáng tạo của bạn.</p>
+
+                    <div class="input-group">
+                        <input type="text" id="login-email" required placeholder="email or phone number">
+                    </div>
+
+                    <div class="input-group">
+                        <input type="password" id="login-password" required placeholder="password">
+                        <span class="password-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16"><path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.94 5.94 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/><path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.288.78.781c.42.126.85.183 1.283.183a3.5 3.5 0 0 0 2.986-5.584l-.793-.793A3.501 3.501 0 0 0 8 5.5c-.51 0-1.007.125-1.464.354l.757.757a2.5 2.5 0 0 1 1.732 1.732z"/><path d="M2.06 2.06c-.54.54-.86 1.272-.86 2.171V4.5c0 2.296 1.52 4.27 3.781 5.418l2.146 2.146A1.5 1.5 0 0 1 7.5 16h1a1.5 1.5 0 0 1 1.06-.44l.842-.842L13.94 13.94a1 1 0 0 0 1.414-1.414L3.473 3.473a1 1 0 0 0-1.414 0l-1.414 1.414zM4.5 5.025a5.536 5.536 0 0 0-1.232 2.975c0 1.54.823 2.99 2.164 4.09l.756-.756A3.5 3.5 0 0 1 5.5 8c0-.54.12-.105.328-.278l.757-.757A5.553 5.553 0 0 0 4.5 5.025z"/></svg>
+                        </span>
+                    </div>
+
+                    <div class="options">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="keep-logged-in"> Keep me logged in
+                        </label>
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+
+                    <p class="social-media-text">Or, Use social media to sign in</p>
+
+                    <div class="social-login">
+                        <a href="#" class="social-icon facebook">F</a>
+                        <a href="#" class="social-icon google">G</a>
+                        <a href="#" class="social-icon github">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="card-container signup-container">
+            <div class="form-panel">
+                 <form action="#">
+                    <h3>Tạo tài khoản Contentify</h3>
+                    <p>Bắt đầu hành trình sáng tạo của bạn hôm nay.</p>
+                    
+                    <div class="social-signup">
+                        <button class="btn btn-social-google">Sign Up with Google</button>
+                        <button class="btn btn-social-github">Sign Up with GitHub</button>
+                    </div>
+
+                    <div class="divider">Hoặc email</div>
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <input type="text" id="signup-ho" required placeholder="Họ">
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="signup-ten" required placeholder="Tên">
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" id="signup-email" required placeholder="Email">
+                    </div>
+
+                    <div class="input-group">
+                        <input type="password" id="signup-password" required placeholder="Password">
+                         <span class="password-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-slash" viewBox="0 0 16 16"><path d="M13.359 11.238C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7.028 7.028 0 0 0-2.79.588l.77.771A5.94 5.94 0 0 1 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.134 13.134 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755-.165.165-.337.328-.517.486l.708.709z"/><path d="M11.297 9.176a3.5 3.5 0 0 0-4.474-4.474l.823.823a2.5 2.5 0 0 1 2.829 2.829l.822.822zm-2.943 1.288.78.781c.42.126.85.183 1.283.183a3.5 3.5 0 0 0 2.986-5.584l-.793-.793A3.501 3.501 0 0 0 8 5.5c-.51 0-1.007.125-1.464.354l.757.757a2.5 2.5 0 0 1 1.732 1.732z"/><path d="M2.06 2.06c-.54.54-.86 1.272-.86 2.171V4.5c0 2.296 1.52 4.27 3.781 5.418l2.146 2.146A1.5 1.5 0 0 1 7.5 16h1a1.5 1.5 0 0 1 1.06-.44l.842-.842L13.94 13.94a1 1 0 0 0 1.414-1.414L3.473 3.473a1 1 0 0 0-1.414 0l-1.414 1.414zM4.5 5.025a5.536 5.536 0 0 0-1.232 2.975c0 1.54.823 2.99 2.164 4.09l.756-.756A3.5 3.5 0 0 1 5.5 8c0-.54.12-.105.328-.278l.757-.757A5.553 5.553 0 0 0 4.5 5.025z"/></svg>
+                        </span>
+                    </div>
+                    
+                    <p class="terms">
+                        Bằng cách tạo tài khoản, bạn đồng ý với
+                        <a href="#">Điều khoản Sử dụng</a> & <a href="#">Chính sách Bảo mật</a> của Contentify.
+                    </p>
+
+                    <button type="submit" class="btn btn-primary">Sign up</button>
+
+                    <p class="login-prompt">
+                        Đã có tài khoản? <a href="#">Đăng nhập</a> để tiếp tục sáng tạo cùng Contentify.
+                    </p>
+                </form>
+            </div>
+            
+            <div class="cta-panel">
+                <h2>THAM GIA NGAY</h2>
+                <h3>xây dựng kế hoạch nội dung tối ưu hóa bằng AI.</h3>
+                <p>Viết nhanh hơn, hiệu quả hơn, và nhất quán hơn.</p>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
